@@ -1,0 +1,71 @@
+#sideBar {
+
+width: 200px;
+height:100%;
+float: left;
+padding: 10px;
+background-color: #D3D3C9;
+position: fixed;
+left: 0px;
+top: 0px;
+z-index: 1;
+}
+
+a {
+text-decoration:none;
+color: black;
+}
+
+nav{
+
+position: relative;
+left: 40px;
+top: 60px;
+}
+
+#centerContet {
+
+
+height: 100%;
+position: absolute;
+left: 220px;
+z-position: -2;
+}
+
+#container {
+border: white 4px solid;
+width: 900px;
+height: 900px;
+top: 0px;
+position: absolute;
+text-align: left;
+background-color: lightgray;
+z-position: -2;
+float: left;
+}
+
+#containerStudent{
+border: white 4px solid;
+width: 900px;
+height: 95%;
+top: 0px;
+position: absolute;
+text-align: left;
+background-color: lightgray;
+z-position: -2;
+float: left;
+}
+
+p.explain {
+	font-size: 10px;
+	padding: 13px;
+	bottom: 40px;
+	position: absolute;
+	width: 700px;
+}
+
+p{
+font-size:12px;
+font-family: calibri;
+}
+
